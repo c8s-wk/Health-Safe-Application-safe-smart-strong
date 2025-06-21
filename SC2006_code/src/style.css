@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  @apply bg-health-light text-health-dark;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-colors;
+}
+
+.btn-primary {
+  @apply bg-health-primary text-white hover:bg-health-primary/90;
+}
+
+.btn-secondary {
+  @apply bg-health-secondary text-white hover:bg-health-secondary/90;
+}

@@ -1,0 +1,11 @@
+npx vitest src/serviceTests/apiAlert.test.ts
+npx vitest src/serviceTests/apiCategory.test.ts
+npx vitest src/serviceTests/apiComment.test.ts
+npx vitest src/serviceTests/apiPost.test.ts
+npx vitest src/serviceTests/apiProfile.test.ts
+npx vitest src/serviceTests/apiProfileAdmin.test.ts
+npx vitest src/serviceTests/apiProfileModerator.test.ts
+npx vitest src/serviceTests/apiProfileNormal.test.ts
+npx vitest src/serviceTests/apiReport.test.ts
+npx vitest src/serviceTests/apiReactionPost.test.ts
+npx vitest src/stores/userStore.test.ts
